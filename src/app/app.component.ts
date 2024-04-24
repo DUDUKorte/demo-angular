@@ -3,6 +3,8 @@ import { RouterOutlet } from '@angular/router';
 import { SidenavOverviewComponent } from './sidenav-overview/sidenav-overview.component';
 import { ButtonModule } from 'primeng/button'
 import { MenuNavbarComponent } from './menu-navbar/menu-navbar.component';
+import { MenuCarouselComponent } from './menu-carousel/menu-carousel.component';
+import { FooterMenuComponent } from './footer-menu/footer-menu.component';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +13,9 @@ import { MenuNavbarComponent } from './menu-navbar/menu-navbar.component';
     RouterOutlet,
     SidenavOverviewComponent,
     MenuNavbarComponent,
-    ButtonModule
+    ButtonModule,
+    MenuCarouselComponent,
+    FooterMenuComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

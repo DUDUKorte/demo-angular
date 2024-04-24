@@ -4,31 +4,8 @@
   height: 100%;
 }
 
-.main-container{
-  position: relative;
+.my-container{
   justify-content: center;
-  align-items: center;
-  max-width: 50%;
-}
-
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px,
-  xxl: 1320px
-);
-
-// Source mixin
-@mixin make-container($padding-x: 5) {
-  width: 100%;
-  padding-right: $padding-x;
-  padding-left: $padding-x;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-// Usage
-.custom-container {
-  @include make-container();
+  margin: auto;
+  width: 85%;
 }

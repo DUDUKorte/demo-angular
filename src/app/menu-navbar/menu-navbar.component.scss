@@ -1,0 +1,47 @@
+.my-button-login{
+    transition: 200ms;
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--my-primary-color);
+    
+    --bs-btn-border-color: none;
+
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: var(--my-primary-color);
+
+    --bs-btn-hover-border-color: var(--my-primary-color);
+    --bs-btn-focus-shadow-rgb: var(--my-primary-color);
+
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: var(--my-primary-darker-color);
+
+
+}
+
+.my-button-register{
+    transition: 300ms;
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: white;
+    --bs-btn-bg: var(--my-primary-color);
+    
+    --bs-btn-border-color: none;
+
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: var(--my-primary-color);
+
+    --bs-btn-hover-border-color: var(--my-primary-color);
+    --bs-btn-focus-shadow-rgb: var(--my-primary-color);
+
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: var(--my-primary-darker-color);
+}
+
+.my-container{
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+}
+
+.navbar-nav a:hover{
+    transition: 150ms;
+    color: var(--my-primary-color);
+}

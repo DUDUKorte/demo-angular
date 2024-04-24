@@ -3,9 +3,21 @@
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
-.container{
-    
+:root{
+    --my-primary-color: #b70832;
+    --my-primary-darker-color: #8b0726;
+    --my-secondary-color: #14141e;
+    --my-terceira-color: #d9e1ec;
 }
+
+html, body { 
+    height: 100%;
+    background-color: black;
+
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+
+.body-color{
+    background-color: #14141e;
+}
+

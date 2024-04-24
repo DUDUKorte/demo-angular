@@ -1,0 +1,14 @@
+footer{
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+}
+
+a:hover{
+    transition: 300ms;
+    color: var(--my-primary-color);
+}
+
+i{
+    color: var(--my-primary-color);
+}
